@@ -7,6 +7,12 @@ import { cn } from '@/src/lib/utils'
 import { Menu, X, ChevronRight, Car, User, Settings, Info, MapPin, Phone, Clock } from 'lucide-react'
 import { useScroll, motion } from 'motion/react'
 
+import logo from '@/src/assets/images/logo.jpg'
+import bannerImg from '@/src/assets/images/wanita.jpg'
+import brand1 from '@/src/assets/images/regenerated_image_1777871487516.webp'
+import brand2 from '@/src/assets/images/regenerated_image_1777872551437.png'
+import brand3 from '@/src/assets/images/regenerated_image_1777872798321.png'
+
 export function HeroSection() {
     return (
         <>
@@ -40,7 +46,7 @@ export function HeroSection() {
                         <div className="absolute inset-0 z-0 h-full w-full overflow-hidden">
                             <img
                                 className="size-full object-cover brightness-[0.65] bg-[#ff0000]"
-                                src= "/banner.jpg"
+                                src={bannerImg}
                                 alt="Juanita Cars Banner"
                             />
                             <div className="absolute inset-0 bg-linear-to-b from-black/60 via-transparent to-black/80"></div>
@@ -64,9 +70,9 @@ export function HeroSection() {
                                         "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=200&h=100&q=80",
                                         "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=200&h=100&q=80",
                                         "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=200&h=100&q=80",
-                                        "/regenerated_image_1777871487516.webp",
-                                        "/regenerated_image_1777872551437.png",
-                                        "/regenerated_image_1777872798321.png",
+                                        brand1,
+                                        brand2,
+                                        brand3,
                                     ].map((src, idx) => (
                                         <div key={idx} className="flex items-center grayscale hover:grayscale-0 transition-all duration-300">
                                             <img
@@ -133,10 +139,10 @@ const HeroHeader = () => {
                                 className="flex items-center space-x-2">
                                 
                                 <img
-  src="/logo.jpg"
-  alt="Juanita Cars"
-  className="h-8 w-auto"
-/>
+                                  src={logo}
+                                  alt="Juanita Cars"
+                                  className="h-8 w-auto"
+                                />
                             </a>
 
                             <button
