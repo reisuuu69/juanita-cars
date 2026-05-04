@@ -133,7 +133,7 @@ const HeroHeader = () => {
                                 className="flex items-center space-x-2">
                                 
                                 <img
-  src="public/images/logo.jpg"
+  src="public/images/wanita.jpg"
   alt="Juanita Cars"
   className="h-8 w-auto"
 />
