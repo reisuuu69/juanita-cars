@@ -91,7 +91,7 @@ export default function App() {
               {
                 title: "2022 Honda Civic RS",
                 price: "₱1,280,000",
-                img: "public/images/regenerated_image_1777871486692.webp",
+                img: "/images/regenerated_image_1777871486692.webp",
                 tag: "Sedan"
               },
               {
@@ -139,7 +139,7 @@ export default function App() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px]">
             <div className="col-span-2 row-span-2 relative group rounded-3xl overflow-hidden cursor-pointer">
-              <img src="public/images/regenerated_image_1777872553250.webp" className="w-full h-full object-cover transition duration-700 group-hover:scale-110" />
+              <img src="/images/regenerated_image_1777872553250.webp" className="w-full h-full object-cover transition duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                  <PlayCircle className="size-16" />
               </div>
@@ -147,8 +147,8 @@ export default function App() {
             {[
               "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=600&auto=format&fit=crop",
               "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=600&auto=format&fit=crop",
-              "public/images/regenerated_image_1777872554081.png",
-              "public/images/regenerated_image_1777872555820.png"
+              "/images/regenerated_image_1777872554081.png",
+              "/images/regenerated_image_1777872555820.png"
             ].map((img, i) => (
               <div key={i} className="relative group rounded-2xl overflow-hidden cursor-pointer">
                 <img src={img} className="w-full h-full object-cover transition duration-700 group-hover:scale-110" />
