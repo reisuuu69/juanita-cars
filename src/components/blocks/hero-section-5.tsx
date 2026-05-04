@@ -40,7 +40,7 @@ export function HeroSection() {
                         <div className="absolute inset-0 z-0 h-full w-full overflow-hidden">
                             <img
                                 className="size-full object-cover brightness-[0.65] bg-[#ff0000]"
-                                src= "/src/assets/images/wanita.jpg"
+                                src= "/src/assets/images/banner.jpg"
                                 alt="Juanita Cars Banner"
                             />
                             <div className="absolute inset-0 bg-linear-to-b from-black/60 via-transparent to-black/80"></div>
