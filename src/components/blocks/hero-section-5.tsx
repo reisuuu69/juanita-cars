@@ -40,7 +40,7 @@ export function HeroSection() {
                         <div className="absolute inset-0 z-0 h-full w-full overflow-hidden">
                             <img
                                 className="size-full object-cover brightness-[0.65] bg-[#ff0000]"
-                                src= "/public/images/banner.jpg"
+                                src= "public/images/banner.jpg"
                                 alt="Juanita Cars Banner"
                             />
                             <div className="absolute inset-0 bg-linear-to-b from-black/60 via-transparent to-black/80"></div>
@@ -64,9 +64,9 @@ export function HeroSection() {
                                         "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=200&h=100&q=80",
                                         "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=200&h=100&q=80",
                                         "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=200&h=100&q=80",
-                                        "/public/images/regenerated_image_1777871487516.webp",
-                                        "/public/images/regenerated_image_1777872551437.png",
-                                        "/public/images/regenerated_image_1777872798321.png",
+                                        "public/images/regenerated_image_1777871487516.webp",
+                                        "public/images/regenerated_image_1777872551437.png",
+                                        "public/images/regenerated_image_1777872798321.png",
                                     ].map((src, idx) => (
                                         <div key={idx} className="flex items-center grayscale hover:grayscale-0 transition-all duration-300">
                                             <img
@@ -133,7 +133,7 @@ const HeroHeader = () => {
                                 className="flex items-center space-x-2">
                                 
                                 <img
-  src="/public/images/logo.jpg"
+  src="public/images/logo.jpg"
   alt="Juanita Cars"
   className="h-8 w-auto"
 />
